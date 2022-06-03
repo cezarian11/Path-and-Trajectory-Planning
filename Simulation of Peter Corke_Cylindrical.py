@@ -49,5 +49,4 @@ q1 = np.array([deg_to_rad(float(45)),
 traj1 = rtb.jtraj(q0,q1,50)
 rtb.qplot(traj1.q)
 
-Cyl_Standard.plot(traj1.q, block=True)
 
